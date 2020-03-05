@@ -1,0 +1,42 @@
+header {
+  .navbar {
+    padding: 0;
+    height: 60px;
+    line-height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgb(6, 4, 34) 0%, rgb(26, 26, 75) 50%, rgb(8, 5, 41) 100%);
+    .cart, .navbar-brand {
+      height: 100%;
+      width: 120px;
+      padding: 0 32px;
+      background: rgb(32, 148, 219);
+      text-align: center;
+    a {
+      font-size: 25px;
+      color: #eeeeee;
+    }
+    .fa-stumbleupon-circle {
+      font-size: 50px;
+    }
+   }
+   .cart:hover {
+     transition: 0.5s;
+     background: rgb(199, 117, 29);
+   }
+   a {
+     color: #eeeeee;
+   }
+   li:hover {
+    background-color: #eeeeee;
+    transition: 0.5s;
+    .nav-link {
+      color:#000;
+    }
+   }
+   .navbar-brand {
+    background:url('https://image.freepik.com/free-vector/orange-red-watercolor-background_1035-9216.jpg?3');
+    padding: 5px;
+   }
+  }
+
+}
