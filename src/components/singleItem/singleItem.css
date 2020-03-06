@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto; }
+  .container .row {
+    margin: 60px 0; }
+    .container .row .col-lg-6 {
+      margin: 10px 0 30px 0; }
+    .container .row .border-top {
+      padding: 10px; }
+
+/*# sourceMappingURL=singleItem.css.map */

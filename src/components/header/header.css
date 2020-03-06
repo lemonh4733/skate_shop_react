@@ -1,11 +1,32 @@
 header .navbar {
-  padding: 0 0 0 10px;
+  padding: 0;
   height: 60px;
-  line-height: 50px; }
-  header .navbar .cart {
+  line-height: 50px;
+  background: #020024;
+  background: linear-gradient(0deg, #060422 0%, #1a1a4b 50%, #080529 100%); }
+  header .navbar .cart, header .navbar .navbar-brand {
     height: 100%;
-    background: #0c1627; }
-    header .navbar .cart a {
+    width: 120px;
+    padding: 0 32px;
+    background: #2094db;
+    text-align: center; }
+    header .navbar .cart a, header .navbar .navbar-brand a {
+      font-size: 25px;
       color: #eeeeee; }
+    header .navbar .cart .fa-stumbleupon-circle, header .navbar .navbar-brand .fa-stumbleupon-circle {
+      font-size: 50px; }
+  header .navbar .cart:hover {
+    transition: 0.5s;
+    background: #c7751d; }
+  header .navbar a {
+    color: #eeeeee; }
+  header .navbar li:hover {
+    background-color: #eeeeee;
+    transition: 0.5s; }
+    header .navbar li:hover .nav-link {
+      color: #000; }
+  header .navbar .navbar-brand {
+    background: url("https://image.freepik.com/free-vector/orange-red-watercolor-background_1035-9216.jpg?3");
+    padding: 5px; }
 
 /*# sourceMappingURL=header.css.map */

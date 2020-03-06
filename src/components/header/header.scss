@@ -1,17 +1,18 @@
 header {
+  position: relative;
   .navbar {
     padding: 0;
     height: 60px;
     line-height: 50px;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgb(6, 4, 34) 0%, rgb(26, 26, 75) 50%, rgb(8, 5, 41) 100%);
-    .cart, .navbar-brand {
+    .navbar-brand {
       height: 100%;
       width: 120px;
       padding: 0 32px;
       background: rgb(32, 148, 219);
       text-align: center;
-    a {
+    a{
       font-size: 25px;
       color: #eeeeee;
     }
@@ -19,24 +20,50 @@ header {
       font-size: 50px;
     }
    }
-   .cart:hover {
-     transition: 0.5s;
-     background: rgb(199, 117, 29);
-   }
-   a {
-     color: #eeeeee;
-   }
+
+    #basic-navbar-nav > div > li> a {
+      color: #eee;
+      padding: 0 15px;
+    }
+    #basic-navbar-nav > div > li> a:hover {
+      color: #1c003e;
+    }
+    #basic-navbar-nav > div {
+      background: rgb(2,0,36);
+      background: linear-gradient(0deg, rgb(6, 4, 34) 0%, rgb(26, 26, 75) 50%, rgb(8, 5, 41) 100%);
+    }
    li:hover {
     background-color: #eeeeee;
     transition: 0.5s;
-    .nav-link {
-      color:#000;
-    }
+     a{
+       color: #120049;
+     }
    }
    .navbar-brand {
     background:url('https://image.freepik.com/free-vector/orange-red-watercolor-background_1035-9216.jpg?3');
     padding: 5px;
    }
   }
-
+  .cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 120px;
+    padding: 0 32px;
+    background: rgb(32, 148, 219);
+    text-align: center;
+    a{
+      font-size: 25px;
+      color: #eeeeee;
+    }
+  &:hover {
+    transition: 0.5s;
+    background: rgb(199, 117, 29);
+  }
+  #cartL {
+    position: absolute;
+    right: 30px;
+  }
+  }
 }
